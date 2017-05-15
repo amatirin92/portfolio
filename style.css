@@ -1,0 +1,25 @@
+body {
+background-image:url('gabriel-santiago-1596.jpg');
+}
+
+.main {
+    font-family: 'Forum', cursive;
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+}
+
+.main > h1 {
+    font-size: 80px;
+    font-family: 'Marck Script', cursive;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+.main > h2 {
+    letter-spacing: 2px;
+
+}
