@@ -27,20 +27,51 @@ background-image:url('gabriel-santiago-1596.jpg');
     margin-top: -5px;
 }
 
-.main > i {
-
-}
 .main > span {
-position: static;
+    position: static;
     top: 23px;
     right: 53px;
 
 }
 
-a {
+ a {
     color: white;
 }
 
-a:hover {
+ a:hover {
     color: black;
 }
+
+.vertical-align {
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    top: 39%;
+    transform: translate(-50%,  -50%);
+}
+
+.caption > p {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Forum', cursive;
+    color: white;
+
+}
+
+.thumbnail > a:hover {
+    font-style: italic;
+    text-decoration: none;
+ }
+
+.thumbnail {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
